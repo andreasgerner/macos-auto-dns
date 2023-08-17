@@ -1,0 +1,5 @@
+auto-dns.debug
+auto-dns.log
+
+.idea
+*.iml

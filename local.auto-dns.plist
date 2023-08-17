@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>local.auto-dns</string>
+    <key>Program</key>
+    <string>PWD/auto-dns.sh</string>
+    <key>WorkingDirectory</key>
+    <string>PWD/</string>
+    <key>StandardOutPath</key>
+    <string>PWD/auto-dns.log</string>
+    <key>StandardErrorPath</key>
+    <string>PWD/auto-dns.debug</string>
+    <key>WatchPaths</key>
+    <array>
+        <string>/etc/resolv.conf</string>
+    </array>
+</dict>
+</plist>
