@@ -1,7 +1,12 @@
 # macos-auto-dns
+
+> MacOS added support for different environments back. Due to this change, I archived this repository. No more changes
+> will be made to the existing code.
+
 Set your DNS server based on the SSID of your network
 
-After MacOS removed the support to save dns servers based on your current profile, this repository contains somewhat of a fix for that.
+After MacOS removed the support to save dns servers based on your current profile, this repository contains somewhat of
+a fix for that.
 It listens to wifi changes and updates the dns accordingly.
 
 ## Installation
